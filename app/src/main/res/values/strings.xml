@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">News App Demo</string>
+    <string name="nav_header_subtitle">ntkduy1604@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Drawer Navigation -->
+    <string name="nav_news">News</string>
+    <string name="nav_opinion">Opinion</string>
+    <string name="nav_sport">Sport</string>
+    <string name="nav_lifestyle">Lifestyle</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Text to display in the list when there are no info [CHAR LIMIT=NONE] -->
+    <string name="no_info">No info found.</string>
+    <string name="nav_communicate">Communicate</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_send">Send</string>
+
+</resources>
