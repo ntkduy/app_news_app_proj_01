@@ -46,6 +46,7 @@ public final class QueryUtils {
 
         // Perform HTTP request to the URL and receive a JSON response back
         String jsonResponse = null;
+//        Log.e("jsonResponse", jsonResponse.toString());
 
         try {
             jsonResponse = makeHttpRequest(url);

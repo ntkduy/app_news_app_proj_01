@@ -1,5 +1,6 @@
 package com.ntkduy1604.newsapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -71,7 +72,8 @@ public class MainActivity extends AppCompatActivity
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.action_settings) {
-            Toast.makeText(MainActivity.this, "To be implemented", Toast.LENGTH_SHORT).show();
+            Intent settingsIntent = new Intent(this, SettingsActivity.class);
+            startActivity(settingsIntent);
             return true;
         }
 
@@ -94,9 +96,9 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_lifestyle) {
             fragment = new LifestyleFragment();
         } else if (id == R.id.nav_share) {
-            Toast.makeText(MainActivity.this, "To be implemented", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, getString(R.string.to_be_implemented), Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_send) {
-            Toast.makeText(MainActivity.this, "To be implemented", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, getString(R.string.to_be_implemented), Toast.LENGTH_SHORT).show();
         }
 
         if (null != fragment) {

@@ -22,4 +22,44 @@
     <string name="nav_share">Share</string>
     <string name="nav_send">Send</string>
 
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Article Settings</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by newest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by oldest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">Oldest</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">oldest</string>
+
+    <!-- Label for order-by relevance option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <!-- Strings For Edition Preference [CHAR LIMIT=30] -->
+    <string name="settings_edition_label">Edition</string>
+    <string name="settings_edition_key" translatable="false">edition</string>
+    <string name="settings_edition_default" translatable="false">@string/settings_edition_au_value</string>
+
+    <!-- Label for order-by newest option [CHAR LIMIT=20] -->
+    <string name="settings_edition_us_label">US Edition</string>
+    <string name="settings_edition_us_value" translatable="false">us</string>
+
+    <!-- Label for order-by oldest option [CHAR LIMIT=20] -->
+    <string name="settings_edition_au_label">Australian Edition</string>
+    <string name="settings_edition_au_value" translatable="false">aus</string>
+
+    <!-- Label for order-by relevance option [CHAR LIMIT=20] -->
+    <string name="settings_edition_uk_label">UK Edition</string>
+    <string name="settings_edition_uk_value" translatable="false">uk</string>
+    <string name="to_be_implemented">To be implemented</string>
+
 </resources>
