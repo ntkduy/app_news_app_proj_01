@@ -14,7 +14,7 @@ public class Constants {
     public static final String TITLE_FIELD = "webTitle";
     public static final String URL_FIELD = "webUrl";
     public static final String PUBLISH_DATE_FIELD = "webPublicationDate";
-    public static final String GUARDIAN_API_KEY = "e8f6e94b-567d-4fdb-a6a9-cd5eb8539536";
+    public static final String GUARDIAN_API_KEY = "test";
 
 
     public static final int NEWS_LOADER_ID = 1;

@@ -95,12 +95,7 @@ public class OpinionFragment extends Fragment implements LoaderManager.LoaderCal
     @Override
     public void onLoadFinished(Loader<List<Article>> loader, List<Article> articles) {
         pbvProgressBarView.setVisibility(View.GONE);
-//
-        // Set empty state text to display "No earthquakes found."
         tvEmptyStateTextView.setText(R.string.no_info);
-
-        // Clear the adapter of previous earthquake data
-        artilesList.clear();
 
         if (articles != null && !articles.isEmpty()) {
             artilesList = (ArrayList<Article>) articles;

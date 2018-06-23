@@ -17,7 +17,7 @@
     <string name="no_internet_connection">No internet connection.</string>
 
     <!-- Text to display in the list when there are no info [CHAR LIMIT=NONE] -->
-    <string name="no_info">No info found.</string>
+    <string name="no_info">No news found.</string>
     <string name="nav_communicate">Communicate</string>
     <string name="nav_share">Share</string>
     <string name="nav_send">Send</string>
