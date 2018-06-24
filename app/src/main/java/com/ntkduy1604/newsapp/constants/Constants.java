@@ -35,4 +35,8 @@ public class Constants {
     public static final int OPINION_LOADER_ID = 2;
     public static final int SPORT_LOADER_ID = 3;
     public static final int LIFESTYLE_LOADER_ID = 4;
+
+    // HTTP Connection
+    public static final int READ_TIMEOUT_MILISECONDS = 10000;
+    public static final int CONNECTION_TIMEOUT_MILISECONDS = 15000;
 }

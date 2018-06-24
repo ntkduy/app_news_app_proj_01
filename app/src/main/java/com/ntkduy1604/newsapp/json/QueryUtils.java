@@ -75,17 +75,17 @@ public final class QueryUtils {
                 /**
                  *  Parsing Article information
                  */
-                String articleTitle = articleObject.getString(Constants.TITLE_FIELD);
-                String articleAuthor = articleFieldObject.getString(Constants.AUTHOR_FIELD);
+                String articleTitle = articleObject.optString(Constants.TITLE_FIELD);
+                String articleAuthor = articleFieldObject.optString(Constants.AUTHOR_FIELD);
 
                 if (null == articleAuthor) {
                     articleAuthor = "unknown";
                 }
 
-                String webPublishDate = articleObject.getString(Constants.PUBLISH_DATE_FIELD);
+                String webPublishDate = articleObject.optString(Constants.PUBLISH_DATE_FIELD);
                 String publicationDate = formatDate(webPublishDate);
 
-                String webUrl = articleObject.getString(Constants.URL_FIELD);
+                String webUrl = articleObject.optString(Constants.URL_FIELD);
 
                 dataModels.add(new Article(articleTitle, articleAuthor, publicationDate, webUrl));
             }
@@ -126,8 +126,8 @@ public final class QueryUtils {
         InputStream inputStream = null;
         try {
             urlConnection = (HttpURLConnection) url.openConnection();
-            urlConnection.setReadTimeout(10000 /* milliseconds */);
-            urlConnection.setConnectTimeout(15000 /* milliseconds */);
+            urlConnection.setReadTimeout(Constants.READ_TIMEOUT_MILISECONDS /* milliseconds */);
+            urlConnection.setConnectTimeout(Constants.CONNECTION_TIMEOUT_MILISECONDS /* milliseconds */);
             urlConnection.setRequestMethod("GET");
             urlConnection.connect();
 
